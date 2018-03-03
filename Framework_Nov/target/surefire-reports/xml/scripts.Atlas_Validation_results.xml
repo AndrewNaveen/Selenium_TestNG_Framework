@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="8"
+           failures="1"
+           errors="0"
+           skipped="6"
+           time="0.002">
+  <properties />
+            <testcase name="endOfExecution" time="0.000" classname="scripts.Atlas_Validation">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  scripts.Atlas_Validation.endOfExecution(Atlas_Validation.java:55)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+  org.testng.TestNG.run(TestNG.java:1031)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+  org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:155)
+  org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+  org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:82)
+  org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:974)
+  org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:824)
+  org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:722)
+  org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:133)
+  org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+  org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+  org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+  org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:108)
+  org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:76)
+  org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+  org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:116)
+  org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:361)
+  org.apache.maven.DefaultMaven.execute(DefaultMaven.java:155)
+  org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+  org.apache.maven.cli.MavenCli.doMain(MavenCli.java:213)
+  org.apache.maven.cli.MavenCli.main(MavenCli.java:157)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+  org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+  org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+  org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="endOfExecution" time="0.0" classname="scripts.Atlas_Validation">
+          <skipped />
+    </testcase>
+            <testcase name="initalSetUp" time="0.0" classname="scripts.Atlas_Validation">
+          <skipped />
+    </testcase>
+            <testcase name="initalSetUp" time="0.0" classname="scripts.Atlas_Validation">
+          <skipped />
+    </testcase>
+            <testcase name="endOfExecution" time="0.0" classname="scripts.Atlas_Validation">
+          <skipped />
+    </testcase>
+            <testcase name="Atlas_Verification" time="0.0" classname="scripts.Atlas_Validation">
+          <skipped />
+    </testcase>
+            <testcase name="Atlas_Verification" time="0.0" classname="scripts.Atlas_Validation">
+          <skipped />
+    </testcase>
+  
+            <testcase name="Atlas_Verification" time="0.002" classname="scripts.Atlas_Validation" />
+      
+</testsuite>

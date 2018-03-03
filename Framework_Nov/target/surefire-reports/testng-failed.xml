@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="sheetName" value="ApproverValidation"/>
+  <test name="ApproverValidation(failed)">
+    <parameter name="sheetName" value="ApproverValidation"/>
+    <classes>
+      <class name="scripts.Approver">
+        <methods>
+          <include name="login"/>
+          <include name="approvalDue" invocation-numbers="11 12 13"/>
+          <include name="closeTheAction"/>
+        </methods>
+      </class> <!-- scripts.Approver -->
+    </classes>
+  </test> <!-- ApproverValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

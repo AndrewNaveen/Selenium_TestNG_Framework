@@ -1,0 +1,6 @@
+Company	Account	Seg3	Seg4	Seg5	Seg6	Seg7	Seg8	Seg9	Seg10	Account Name	CCY1Code	CCY1Balance	CCY2Code	CCY2Balance	CCY3Code	CCY3Balance	Period	Year	Period End
+Test_5	Test_1									Test21	USD	123280.25	USD	123280.25	USD	123280.25	5	2016	
+Test_5	Test_2									Test22	USD	0	USD	0	USD	0	5	2016	
+Test_5	Test_3									Test23	USD	-12.66	USD	0	USD	0	5	2016	
+Test_5	Test_4									Test24	USD	8703.58	USD	0	USD	0	5	2016	
+Test_5	Test_5									Test25	USD	20752755	USD	20752755	USD	20752755	5	2016	

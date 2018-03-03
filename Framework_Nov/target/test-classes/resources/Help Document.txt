@@ -1,0 +1,10 @@
+Steps to be followed before running the AssureNET_IT.
+
+1. Go to resource folder and open the file (File name : GLBAL-test) and update the values. If you have any doubts in updating the file, check with 
+functional Team. POC - bhanupriya.s.reddy@accenture.com
+
+2. After updating the file, send the same to "bhanupriya.s.reddy@accenture.com" and ask them to place it in the server
+
+3. Copy the file name and update the same in the data pool column name filename - ( Sheet Name : AssureNET_IT in the selenium Data sheet workbook)
+
+4. That's it.. You are good to run the script

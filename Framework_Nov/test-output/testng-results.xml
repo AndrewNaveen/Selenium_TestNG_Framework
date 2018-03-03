@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Successfully navigated to Cadency Home page</td></tr><tr><td colspan=2><table width= 100% ;rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\n.kumarasamy\Selenium\Cadency/\Screenshot\06-29-2016_13-45.png"><img src="file:///C:\Users\n.kumarasamy\Selenium\Cadency/\Screenshot\06-29-2016_13-45.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38391" started-at="2016-06-29T07:51:12Z" finished-at="2016-06-29T07:51:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38391" started-at="2016-06-29T07:51:12Z" finished-at="2016-06-29T07:51:50Z">
+      <class name="scripts.AssureNET_IT">
+        <test-method status="PASS" signature="intialSetUp()[pri:0, instance:scripts.AssureNET_IT@1202afe]" name="intialSetUp" is-config="true" duration-ms="6281" started-at="2016-06-29T13:21:12Z" finished-at="2016-06-29T13:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialSetUp -->
+        <test-method status="PASS" signature="azzureNET()[pri:0, instance:scripts.AssureNET_IT@1202afe]" name="azzureNET" duration-ms="28060" started-at="2016-06-29T13:21:18Z" finished-at="2016-06-29T13:21:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<table width= 100% ; border = 1.5; rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:green;font-size:12px;font-family:verdana;\><strong>Pass</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\>Successfully navigated to Cadency Home page</td></tr><tr><td colspan=2><table width= 100% ;rules =rows ><tbody><tr><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong>Screenshot</strong></td><td> <font style=\width:130px;text-align:left;color:black;font-size:12px;font-family:verdana;\><strong><a href="C:\Users\n.kumarasamy\Selenium\Cadency/\Screenshot\06-29-2016_13-45.png"><img src="file:///C:\Users\n.kumarasamy\Selenium\Cadency/\Screenshot\06-29-2016_13-45.png" alt=""height='300' width='300' border =1/> <br /></strong></td></tr></tbody></table></td></tr></tbody></table>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- azzureNET -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:scripts.AssureNET_IT@1202afe]" name="quitDriver" is-config="true" duration-ms="4042" started-at="2016-06-29T13:21:46Z" finished-at="2016-06-29T13:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- scripts.AssureNET_IT -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
