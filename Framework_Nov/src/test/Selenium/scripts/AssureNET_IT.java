@@ -9,14 +9,15 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import driver.EnvironmentVariables;
-import driver.GenericMethods;
+
+import test.Selenium.*;
+import test.Selenium.driver.EnvironmentVariables;
 
 public class AssureNET_IT {
 	
 	WebDriver driver = null;
-	methods.azzureNET a = new methods.azzureNET();
-	GenericMethods gm = new GenericMethods();
+	test.Selenium.methods.azzureNET a = new test.Selenium.methods.azzureNET();
+	test.Selenium.driver.GenericMethods gm = new test.Selenium.driver.GenericMethods();
 		
 	@BeforeClass
 	public void intialSetUp()

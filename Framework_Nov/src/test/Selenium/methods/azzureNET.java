@@ -10,13 +10,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
 
-import pageObjects.azzureNET_IT_Pages;
+
+import test.Selenium.*;
 import test.Selenium.driver.GenericMethods;
-import driver.*;
+import test.Selenium.pageObjects.azzureNET_IT_Pages;
 
 public class azzureNET {
 
-	GenericMethods gm = new GenericMethods();
+	test.Selenium.driver.GenericMethods gm = new test.Selenium.driver.GenericMethods();
 
 	public void cadencyLogin(WebDriver driver,String userName,String password) throws InterruptedException
 	{

@@ -1,4 +1,4 @@
-package scripts;
+package test.Selenium.scripts;
 
 public class script1 {
 
