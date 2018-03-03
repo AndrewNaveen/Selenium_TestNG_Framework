@@ -32,6 +32,7 @@ public class GenericMethods {
 	 */
 	public void logScreenshot(String condition,String msg, WebDriver driver)
 	{	
+		//screenshot method
 		String userDirector = System.getProperty("user.dir") + "/"; 
 
 		String s1 = null,s2 ="";
